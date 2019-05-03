@@ -8,6 +8,7 @@ public class Controller {
 
     @GetMapping("/")
     public String greeting(){
-        return "<h1 color:purple>Hello Queen</h1>";
+        return "<h1 style='color: purple'>Hello Queen</h1>";
+
     }
 }
